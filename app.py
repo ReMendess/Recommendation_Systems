@@ -70,7 +70,7 @@ if st.session_state.acesso_recomendacao:
                 st.success(f"✅ **{produto}** – {descricao}")
         else:
             st.warning("Nenhuma recomendação no momento. Explore nossos produtos!")
-            st.markdown("Temos sugestões personalizadas para você:")
+            st.markdown("Temos algumas sugestões para você:")
             st.markdown("✅ **Crédito Pessoal** – ideal para emergências\n✅ **Renda Fixa** – segurança com bons rendimentos")
 
         st.markdown("---")
